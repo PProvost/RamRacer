@@ -1,0 +1,17 @@
+## Interface: 30100
+
+## Title: RamRacer
+## Notes: Tracks your performance on the ram racing brewfest pseudo-daily activity
+## Author: Quaiche
+## Version: $project-version$
+## X-Category: Misc
+
+## SavedVariables: RamRacerDB
+## SavedVariablesPerCharacter: RamRacerDBPC
+
+## OptionalDeps: tekDebug, tekErr
+
+libs/LibStub.lua
+libs/tekKonfigAboutPanel.lua
+
+RamRacer.lua
